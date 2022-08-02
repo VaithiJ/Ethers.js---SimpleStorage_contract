@@ -1,11 +1,3 @@
-# Ethers Simple Storage
-
-This is part of the FreeCodeCamp Solidity & Javascript Blockchain Course.
-
-Video Link : _[⌨️ (05:30:42) Lesson 5: Ethers.js Simple Storage](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=19842s)_
-
-# Getting Started
-
 ## Requirements
 
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
@@ -20,7 +12,7 @@ Video Link : _[⌨️ (05:30:42) Lesson 5: Ethers.js Simple Storage](https://www
 - [ganache](https://trufflesuite.com/ganache/)
   - You'll know you did it right if you can run the application and see:
     <br>
-    <img src="./img/ganache-picture.png" alt="ganache" width="200"/>
+ 
   - You can alternatively use [ganache-cli](https://www.npmjs.com/package/ganache-cli) or [hardhat](https://hardhat.org/)
 
 ### Optional Gitpod
@@ -58,7 +50,6 @@ If you like `typescript`, run `git checkout typescript` then run `yarn`
 
 2. Copy the `RPC SERVER` sting in your ganache CLI, and place it into your `.env` file similar to what's in `.env.example`.
 
-<img src="./img/ganache-http.png" alt="ganache" width="500"/>
 
 `.env` Example:
 
@@ -68,9 +59,6 @@ RPC_URL=http://0.0.0.0:8545
 
 3. Hit the key on one of the accounts, and copy the key you see and place it into your `.env` file, similar to what you see in `.env.example`.
 
-<img src="./img/ganache-key.png" alt="ganache" width="500"/>
-
-<img src="./img/ganache-private-key.png" alt="ganache" width="500"/>
 
 `.env` Example:
 
